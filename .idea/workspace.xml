@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="project created">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Test.java" afterDir="false" />
+    <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTabelLoginStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/tabelLoginFeature.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/TableLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/TableLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +41,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9_Cucumber_Review/src/test/java/cydeo"
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9_Cucumber_Review/src/test/java/cydeo/utilities"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_Cucumber_Review\src\test\java\cydeo\utilities" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_Cucumber_Review" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_Cucumber_Review\src\test\java\cydeo" />
     </key>
   </component>
@@ -75,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665320017752</updated>
-      <workItem from="1665320019165" duration="4119000" />
+      <workItem from="1665320019165" duration="7381000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1665320513886</created>
@@ -98,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665328319298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sample  test created">
+      <created>1665329312206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665329312206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updates">
+      <created>1665330409194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665330409194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +139,8 @@
     <MESSAGE value="first init" />
     <MESSAGE value="test update" />
     <MESSAGE value="project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="project created" />
+    <MESSAGE value="sample  test created" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
