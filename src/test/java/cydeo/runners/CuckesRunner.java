@@ -7,6 +7,7 @@ import org.junit.runner.*;
 @CucumberOptions(
         plugin = {
                 "html:target/cucumber-report.html",
+                "rerun:target/rerun.txt",
         },
         features = "src/test/resources/features",
         glue = "cydeo/step_definitions",
