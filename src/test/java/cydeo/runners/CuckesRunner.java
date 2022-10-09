@@ -10,8 +10,8 @@ import org.junit.runner.*;
         },
         features = "src/test/resources/features",
         glue = "cydeo/step_definitions",
-        dryRun = true,
-        tags = ""
+        dryRun = false,
+        tags = "@wip"
 
 )
 

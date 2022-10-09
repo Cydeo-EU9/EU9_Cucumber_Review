@@ -27,6 +27,7 @@ public class WebTabelLoginStepDefinition {
     public void url_should_end_with_orders() {
        String title = Driver.getDriver().getCurrentUrl();
        Assert.assertTrue(title.endsWith("orders"));
+       Driver.closeDriver();
     }
 
     @When("user enter wrong username and password")
@@ -38,8 +39,14 @@ public class WebTabelLoginStepDefinition {
     }
     @Then("URL should not end with orders")
     public void url_should_not_end_with_orders() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        String url = Driver.getDriver().getCurrentUrl();
+        Assert.assertFalse(url.endsWith("orders"));
+    }
+
+    @When("user enters below credentials")
+    public void user_enters_below_credentials(Map<String, String> userInfo) {
+        loginPage.login(userInfo.get("username"),userInfo.get("password"));
+
     }
 
 
