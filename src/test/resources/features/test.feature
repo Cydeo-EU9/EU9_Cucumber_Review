@@ -1,7 +1,7 @@
 Feature: Test to understand cucumber structur
 
 
-  @finished
+  @wip
   Scenario: first test about cucumber
     Given User go to test page
     When user enter correct credentials

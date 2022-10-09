@@ -49,5 +49,11 @@ public class WebTabelLoginStepDefinition {
 
     }
 
+    @When("user enter {string} and {string}")
+    public void user_enter_and(String username, String password) {
+        loginPage.login(username,password);
+    }
+
+
 
 }

@@ -4,9 +4,14 @@ Feature: Login test to web tabel page
     Given user go to web table login page
 
 
-  @wip
+  @smoke
   Scenario: positive login test
     When user enter username and password
+    Then URL should end with orders
+
+    @wip
+  Scenario: positive login test with data
+    When user enter "Tes" and "Tester"
     Then URL should end with orders
 
   @wip
@@ -15,7 +20,7 @@ Feature: Login test to web tabel page
     Then URL should not end with orders
 
 
-    @wip
+  @wip
   Scenario: login test with data table
     When user enters below credentials
       | username | Test   |
