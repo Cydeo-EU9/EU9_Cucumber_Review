@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DashboardStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dashoard.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTabelLoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTabelLoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/tabelLoginFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/tabelLoginFeature.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665320017752</updated>
-      <workItem from="1665320019165" duration="8650000" />
+      <workItem from="1665320019165" duration="10784000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1665320513886</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665332586373</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1665333881121</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665333881121</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
