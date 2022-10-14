@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="Hooks and screen shot are added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" afterDir="false" />
+    <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="Rerun is added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9_Cucumber_Review/src/test/java/cydeo/utilities"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9_Cucumber_Review/src/test/java/cydeo/utilities&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_Cucumber_Review\src\test\java\cydeo\utilities" />
@@ -96,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665320017752</updated>
-      <workItem from="1665320019165" duration="14143000" />
+      <workItem from="1665320019165" duration="14875000" />
+      <workItem from="1665778043385" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1665320513886</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665343680652</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Rerun is added.">
+      <created>1665344148209</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665344148209</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +199,7 @@
     <MESSAGE value="sample  test created" />
     <MESSAGE value="updates" />
     <MESSAGE value="Hooks and screen shot are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hooks and screen shot are added." />
+    <MESSAGE value="Rerun is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rerun is added." />
   </component>
 </project>
