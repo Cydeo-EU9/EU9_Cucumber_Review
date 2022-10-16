@@ -1,6 +1,6 @@
 Feature: Check table data
 
-  @wip
+#  @wip
   Scenario Outline: Check table data
     Given User is on web table page
     When Name is "<name>"
