@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="Rerun is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/VerifyTableDataPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/ValidateTableDataStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/verifyTableData.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/tabelLoginFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/tabelLoginFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +45,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9_Cucumber_Review/src/test/java/cydeo/utilities&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9_Cucumber_Review/src/test/java/cydeo/utilities&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -49,7 +60,7 @@
       <recent name="cydeo.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FailedTestRunner">
+  <component name="RunManager" selected="JUnit.CuckesRunner">
     <configuration name="CuckesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_Cucumber_Review" />
       <extension name="coverage">
@@ -82,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CuckesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +107,9 @@
       <option name="presentableId" value="Default" />
       <updated>1665320017752</updated>
       <workItem from="1665320019165" duration="14875000" />
-      <workItem from="1665778043385" duration="498000" />
+      <workItem from="1665778043385" duration="1004000" />
+      <workItem from="1665866488858" duration="6890000" />
+      <workItem from="1665918081427" duration="6729000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1665320513886</created>
@@ -175,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665344148209</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Rerun is added.">
+      <created>1665778656068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665778656068</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

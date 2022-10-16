@@ -14,7 +14,7 @@ public class Hooks {
     public void runFirst(){
         System.out.println("I will run before wip scenario");
     }
-
+//
     @Before(value = "@smoke")
     public void runAgain(){
         System.out.println("I will run before smoke scenario");

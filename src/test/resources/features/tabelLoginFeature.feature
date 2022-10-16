@@ -9,18 +9,18 @@ Feature: Login test to web tabel page
     When user enter username and password
     Then URL should end with orders
 
-    @wip
+#    @wip
   Scenario: positive login test with data
     When user enter "Tes" and "Tester"
     Then URL should end with orders
 
-  @wip
+#  @wip
   Scenario: negative login test
     When user enter wrong username and password
     Then URL should not end with orders
 
 
-  @wip
+#  @wip
   Scenario: login test with data table
     When user enters below credentials
       | username | Test   |

@@ -8,11 +8,13 @@ import org.junit.runner.*;
         plugin = {
                 "html:target/cucumber-report.html",
                 "rerun:target/rerun.txt",
+//                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
         },
         features = "src/test/resources/features",
         glue = "cydeo/step_definitions",
         dryRun = false,
-        tags = "@wip or @smoke"
+        tags = "@wip",
+        publish = false
 
 )
 
