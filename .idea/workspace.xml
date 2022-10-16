@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="week 8, cucumber scenario outline is explained.">
-      <change afterPath="$PROJECT_DIR$/new VyTrack credentials.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/VyTrackDashPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/VyTrackLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/VyTrackLoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/vyTrackLogin.feature" afterDir="false" />
+    <list default="true" id="92004c74-d26e-426c-b9b4-964cfd9c07fa" name="Changes" comment="riview started.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CuckesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/verifyTableData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/verifyTableData.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/VyTrackLoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/VyTrackLoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/vyTrackLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/vyTrackLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,27 @@
       <recent name="cydeo.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: login as driver">
+  <component name="RunManager" selected="JUnit.CuckesRunner">
+    <configuration name="Scenario: first test about cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="cydeo.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EU9_Cucumber_Review" />
+      <option name="NAME_FILTER" value="^first test about cucumber$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^first test about cucumber$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: first test about cucumber" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: login as driver" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/vyTrackLogin.feature" />
@@ -127,28 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_Cucumber_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cydeo.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cydeo.runners" />
-      <option name="MAIN_CLASS_NAME" value="cydeo.runners.FailedTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: login as driver" />
         <item itemvalue="JUnit.CuckesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: login as driver" />
+        <item itemvalue="Cucumber Java.Scenario: first test about cucumber" />
         <item itemvalue="JUnit.ExcelRead.writeExcel" />
         <item itemvalue="JUnit.ExcelRead.readExcelFile" />
-        <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +166,7 @@
       <workItem from="1665778043385" duration="1004000" />
       <workItem from="1665866488858" duration="6890000" />
       <workItem from="1665918081427" duration="11082000" />
-      <workItem from="1665943815238" duration="2172000" />
+      <workItem from="1665943815238" duration="5306000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1665320513886</created>
@@ -264,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665943275009</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="riview started.">
+      <created>1665946112091</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665946112091</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +299,7 @@
     <MESSAGE value="Hooks and screen shot are added." />
     <MESSAGE value="Rerun is added." />
     <MESSAGE value="week 8, cucumber scenario outline is explained." />
-    <option name="LAST_COMMIT_MESSAGE" value="week 8, cucumber scenario outline is explained." />
+    <MESSAGE value="riview started." />
+    <option name="LAST_COMMIT_MESSAGE" value="riview started." />
   </component>
 </project>
