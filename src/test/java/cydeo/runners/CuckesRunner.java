@@ -8,8 +8,9 @@ import org.junit.runner.*;
         plugin = {
                 "json:target/cucumber.json",
                 "html:target/cucumber-report.html",
+                "junit:target/junit/junit-report.xml",
                 "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                //"me.jvt.cucumber.report.PrettyReports:target/cucumber",
         },
         features = "src/test/resources/features",
         glue = "cydeo/step_definitions",
