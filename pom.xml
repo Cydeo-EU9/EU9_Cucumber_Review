@@ -21,8 +21,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <parallel>methods</parallel>
-                    <threadCount>4</threadCount>
+                  <!--   <parallel>methods</parallel> -->
+                    <!-- <threadCount>4</threadCount> -->
 <!--                    <perCoreThreadCount>false</perCoreThreadCount>-->
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
